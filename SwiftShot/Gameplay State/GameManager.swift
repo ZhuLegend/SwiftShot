@@ -90,7 +90,7 @@ class GameManager: NSObject {
     private var touchEvents = [TouchEvent]()
     private let touchEventsLock = NSLock()
 
-    private var categories = [String: [GameObject]] ()  // this object can be used to group like items if their gamedefs include a category
+    private var categories = [String: [GameObject]]()  // this object can be used to group like items if their gamedefs include a category
 
     // Refernces to Metal do not compile for the Simulator
 #if !targetEnvironment(simulator)
@@ -413,7 +413,7 @@ class GameManager: NSObject {
         // test to make sure no GameObjects are built prior
         // also be careful that the server increments the counter for new nodes
         GameObject.resetIndexCounter()
-        categories = [String: [GameObject]] ()
+        categories = [String: [GameObject]]()
         
         initializeGameObjectPool()
         

@@ -72,10 +72,12 @@ class ConstrainHierarchyComponent: GKComponent, PhysicsBehaviorComponent {
                 let attachPhysics = socketEntityNode.physicsNode,
                 let attachBody = attachPhysics.physicsBody {
                 attachBody.resetTransform()
+                
                 createBallJoint(source: physicsBody,
                                 sourceOffset: ballSocket.convertPosition(SCNVector3Zero, to: physicsNode),
                                 dest: attachBody,
                                 destOffset: socketNode.convertPosition(SCNVector3Zero, to: attachPhysics))
+                
             }
         }
             
@@ -93,12 +95,14 @@ class ConstrainHierarchyComponent: GKComponent, PhysicsBehaviorComponent {
                 let attachBody = attachPhysics.physicsBody {
                 
                     attachBody.resetTransform()
+                
                     createHingeJoint(source: physicsBody,
                                 sourceAxis: hingeJoint.convertVector(SCNVector3Make(0.0, 1.0, 0.0), to: physicsNode),
                                 sourceAnchor: hingeJoint.convertPosition(SCNVector3Zero, to: physicsNode),
                                 dest: attachBody,
                                 destAxis: hingeJoint.convertVector(SCNVector3Make(0.0, 1.0, 0.0), to: attachPhysics),
                                 destAnchor: attachNode.convertPosition(SCNVector3Zero, to: attachPhysics))
+                
             }
         }
         

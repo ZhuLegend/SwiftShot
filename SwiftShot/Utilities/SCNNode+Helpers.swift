@@ -145,10 +145,13 @@ extension SCNNode {
     func hitTestWithSegment(from pointA: SIMD3<Float>, to pointB: SIMD3<Float>, options: [String: Any]? = nil) -> [SCNHitTestResult] {
         return hitTestWithSegment(from: SCNVector3(pointA), to: SCNVector3(pointB), options: options)
     }
-    
     var simdBoundingBox: (min: SIMD3<Float>, max: SIMD3<Float>) {
-        get { return (SIMD3<Float>(boundingBox.min), SIMD3<Float>(boundingBox.max)) }
-        set { boundingBox = (min: SCNVector3(newValue.min), max: SCNVector3(newValue.max)) }
+        get {
+            return (SIMD3<Float>(boundingBox.min), SIMD3<Float>(boundingBox.max))
+        }
+        set {
+            boundingBox = (min: SCNVector3(newValue.min), max: SCNVector3(newValue.max))
+        }
     }
 
     func resizeParticleSystems(scale: Float) {

@@ -48,3 +48,4 @@ extension SCNShadable where Self: NSObject {
         return value(forKey: uniform) != nil
     }
 }
+

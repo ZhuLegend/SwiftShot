@@ -24,7 +24,7 @@ class ComputedValue<T> {
         get {
             return dirty
         }
-        set(value) {
+        set {
             dirty = true
         }
     }

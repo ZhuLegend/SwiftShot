@@ -83,6 +83,7 @@ extension String: BitStreamCodable {
 }
 
 enum GameBoardLocation: BitStreamCodable {
+    
     case worldMapData(Data)
     case manual
 
@@ -115,6 +116,7 @@ enum GameBoardLocation: BitStreamCodable {
 
 enum BoardSetupAction: BitStreamCodable {
     case requestBoardLocation
+    
     case boardLocation(GameBoardLocation)
 
     enum CodingKey: UInt32, CaseIterable {
@@ -475,6 +477,7 @@ extension StartGameMusicTime: CustomDebugStringConvertible {
 }
 
 enum Action {
+    
     case gameAction(GameAction)
     case boardSetup(BoardSetupAction)
     case startGameMusic(StartGameMusicTime)

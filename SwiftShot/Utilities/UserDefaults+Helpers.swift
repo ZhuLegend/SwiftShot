@@ -94,7 +94,7 @@ extension UserDefaults {
             set(data, forKey: UserDefaultsKeys.peerID)
         }
     }
-
+    
     var musicVolume: Float {
         get { return float(forKey: UserDefaultsKeys.musicVolume) }
         set { set(newValue, forKey: UserDefaultsKeys.musicVolume) }

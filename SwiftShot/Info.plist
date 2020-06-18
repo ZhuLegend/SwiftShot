@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
@@ -26,6 +26,8 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>This application will use the camera for Augmented Reality.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This application will use local networking to discover nearby devices.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>This game will use location services to look for beacons in order to locate the pre-created game tables at WWDC. Your geographic location will not be tracked.</string>
 	<key>UIFileSharingEnabled</key>
@@ -54,5 +56,10 @@
 	<true/>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_swiftshot-p._tcp</string>
+		<string>_swiftshot-s._tcp</string>
+	</array>
 </dict>
 </plist>
