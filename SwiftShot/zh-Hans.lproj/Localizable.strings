@@ -1,0 +1,64 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Strings file containing detailed descriptions.
+*/
+
+/* No comment provided by engineer. */
+"Are you sure you want to leave the game?" = "你确定要离开游戏吗？";
+
+/* Team name */
+"Blue" = "蓝队";
+
+/* when no custom selected */
+"Default" = "默认";
+
+/* No comment provided by engineer. */
+"Dismiss" = "取消";
+
+/* No comment provided by engineer. */
+"Find a flat surface to place the game." = "寻找一个平坦的平面来放置游戏板";
+
+/* User didn't enable location services */
+"Insufficient Location Permissions For Beacons" = "缺少定位服务以寻找信标";
+
+/* No comment provided by engineer. */
+"Leave" = "离开";
+
+/* No comment provided by engineer. */
+"Make adjustments and tap to continue." = "调整，点击以开始";
+
+/* No comment provided by engineer. */
+"Move closer to a slingshot." = "移近弹弓以射击";
+
+/* Team name */
+"none" = "无";
+
+/* Steps the user can take to activate beacon */
+"Please go to Settings and enable location services for SwiftShot to look for nearby beacons" = "请前往设置界面为SwiftShot启用位置权限以寻找附近的信标";
+
+/* No comment provided by engineer. */
+"Point the camera towards the table." = "将相机指向游戏板";
+
+/* No comment provided by engineer. */
+"Release to shoot." = "松手以射击";
+
+/* No comment provided by engineer. */
+"Scale, rotate or move the board." = "缩放、旋转或者移动游戏板";
+
+/* No comment provided by engineer. */
+"Stay" = "留下";
+
+/* No comment provided by engineer. */
+"Synchronizing world map…" = "同步世界地图…";
+
+/* No comment provided by engineer. */
+"Tap anywhere and hold to pull back." = "点击任何位置并保持以拖动弹弓";
+
+/* Team name */
+"Yellow" = "黄队";
+
+/* No comment provided by engineer. */
+"You’re the host, so if you leave now the other players will have to leave too." = "你是主持者，如果你现在离开，其他玩家也会同时退出";
+

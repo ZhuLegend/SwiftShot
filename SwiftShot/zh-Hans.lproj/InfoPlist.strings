@@ -1,0 +1,13 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+User interface text for various Info.plist keys.
+*/
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "这个应用程序需要相机权限以使用AR功能";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "此游戏将使用定位服务来寻找信标，以便在WWDC定位预先创建的游戏桌。您的地理位置将不会被跟踪。";
+
